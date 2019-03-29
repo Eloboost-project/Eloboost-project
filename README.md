@@ -6,4 +6,4 @@ dab
 
 REEEEeEEEEEEEEEE
 
-test push 
+test push - det fungerer :) 
