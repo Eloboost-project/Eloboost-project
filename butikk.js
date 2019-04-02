@@ -43,7 +43,7 @@ function setup() {
         let text = info.target.innerHTML.trim().toLowerCase();
         if (text) {
             if (text.substr(2) === "LO") {
-                location.href = "league.html";
+                location.href = "lol.html";
                 return;
             }
             if (text.substr(2) === "CS") {
