@@ -9,7 +9,8 @@ function setup() {
         homebar.setAttribute("menu",
             `<i class="material-icons">menu</i>
         <ul>
-          <li>game
+          <li>League of legends
+          <li>CS:GO
         </ul>
         `)
         homebar.addEventListener("menu", menuHandler);
@@ -41,6 +42,14 @@ function setup() {
         let info = homebar.info;
         let text = info.target.innerHTML.trim().toLowerCase();
         if (text) {
+            if (text.substr(5) === "Leagu") {
+                location.href = "league.html";
+                return;
+            }
+            if (text.substr(2) === "CS") {
+                location.href = "csgo.html";
+                return;
+            }
             location.href = text + ".html";
         }
     }
