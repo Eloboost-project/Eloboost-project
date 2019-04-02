@@ -9,12 +9,7 @@ function setup() {
         homebar.setAttribute("menu",
             `<i class="material-icons">menu</i>
         <ul>
-          <li>Kunde
-          <li>Vare
-          <li>Butikk
-          <li>Korg
-          <li>Bestilling
-          <li>Linje
+          <li>game
         </ul>
         `)
         homebar.addEventListener("menu", menuHandler);
