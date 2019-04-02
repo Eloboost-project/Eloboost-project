@@ -5,6 +5,7 @@ class HomeBar extends HTMLElement {
       const heading = this.getAttribute("heading") || "";
       const crumb = this.getAttribute("crumb") || "";
       const username = this.getAttribute("username") || "";
+      const menu = this.getAttribute("menu") || "";
       const color = this.getAttribute("color") || "red";
       this._info = {};
       let now = new Date();
@@ -13,8 +14,8 @@ class HomeBar extends HTMLElement {
       this._root.innerHTML = `
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <div id="home">
-          <div id="menu"></div>
           <div id="heading">${heading}</div>
+          <div id="menu">${menu}</div>
           <div id="crumb">${crumb}</div>
           <div id="username">${username}</div>
           <div id="info">${datestr}</div>
