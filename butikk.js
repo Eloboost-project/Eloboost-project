@@ -9,7 +9,7 @@ function setup() {
         homebar.setAttribute("menu",
             `<i class="material-icons">menu</i>
         <ul>
-          <li>League of legends
+          <li>league of legends
           <li>CS:GO
         </ul>
         `)
@@ -42,7 +42,7 @@ function setup() {
         let info = homebar.info;
         let text = info.target.innerHTML.trim().toLowerCase();
         if (text) {
-            if (text.substr(5) === "Leagu") {
+            if (text.substr(5) === "leagu") {
                 location.href = "league.html";
                 return;
             }
