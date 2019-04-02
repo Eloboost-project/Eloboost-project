@@ -10,7 +10,7 @@ function setup() {
             `<i class="material-icons">menu</i>
         <ul>
           <li>league of legends
-          <li>CS:GO
+          <li>CSGO
         </ul>
         `)
         homebar.addEventListener("menu", menuHandler);
