@@ -2,9 +2,9 @@
 
 .LOLBOOST {
     margin: 0 auto;
-    left: 1em;
-    position: relative;
-    padding-top: 2em;
+    left: 10em;
+    position: absolute;
+    padding-top: 13em;
     padding-left: 3em;
     font-family: helvetica;
     font-size: 240%;
@@ -13,10 +13,22 @@
     flex-wrap: wrap;
     grid-template-areas: 'left right';
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 8em;
-    grid-gap: 4em;    
+    grid-template-rows: 50em;
+    grid-gap: 20em;    
     width: 25em;
     background-image: linear-gradient(to bottom right, skyblue, azure);
     border-radius: 25px;
     border: solid skyblue;
+}
+
+.gridBOOST-left {
+    top: -400px;
+    position: relative;
+}
+
+
+.gridBOOST-right {
+    top: -400px;
+    position: relative;
+    left: 300px;
 }
