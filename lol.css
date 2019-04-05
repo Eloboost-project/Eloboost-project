@@ -1,22 +1,20 @@
-#SOLOBOOST {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 200%;
-    position: absolute;
-    left: 500px;
-    top: 80px;
-}
-#DUOBOOST {
-    font-family: arial;
-    font-size: 200%;
-    position: absolute;
-    left: 1000px;
-    top: 80px;
-}
 
-p {
-    font-family: Arial, Helvetica, sans-serif;
-    position: absolute;
-    font-size: 50%;
-    padding-right: 1px;
-    right: 300;
-    top: 80px;
+
+.LOLBOOST {
+    left: 380px;
+    position: fixed;
+    padding-top: 100px;
+    padding-left: 150px;
+    font-family: helvetica;
+    font-size: 240%;
+    top: 100px;
+    display: grid;
+    grid-template-areas: 'left right';
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 400px;
+    grid-gap: 200px;    
+    width: 900px;
+    background-image: linear-gradient(to bottom right, skyblue, azure);
+    border-radius: 25px;
+    border: solid skyblue;
+}
