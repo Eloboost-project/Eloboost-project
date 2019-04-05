@@ -81,6 +81,16 @@ class HomeBar extends HTMLElement {
                 #username , #info { display:none; }
                 #home {grid-template-columns: 1fr 1fr 3fr;}
               }
+              a {
+                text-decoration: none;
+                color:white;
+                font-size:29px;
+
+              }
+              a:visited {
+                color:white;
+                font-size:29px;
+              }
             </style>
           `;
          
