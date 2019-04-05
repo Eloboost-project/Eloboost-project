@@ -1,0 +1,22 @@
+#SOLOBOOST {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 200%;
+    position: absolute;
+    left: 500px;
+    top: 80px;
+}
+#DUOBOOST {
+    font-family: arial;
+    font-size: 200%;
+    position: absolute;
+    left: 1000px;
+    top: 80px;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    font-size: 50%;
+    padding-right: 1px;
+    right: 300;
+    top: 80px;

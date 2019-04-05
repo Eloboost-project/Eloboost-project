@@ -11,9 +11,11 @@ function setup() {
         <ul>
           <li>LOL
           <li>CSGO
+          <li>MainPage
         </ul>
         `)
         homebar.addEventListener("menu", menuHandler);
+        homebar.setAttribute("heading", '<a id="hometext" href="mainpage.html">Home</a>')
     }
     if (select) {
         select.addEventListener("korg", bestilling);
@@ -48,6 +50,10 @@ function setup() {
             }
             if (text.substr(2) === "CS") {
                 location.href = "csgo.html";
+                return;
+            }
+            if (text.substr(2) === "MP") {
+                location.href = "mainpage.html";
                 return;
             }
             location.href = text + ".html";
