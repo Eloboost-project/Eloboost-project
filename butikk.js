@@ -44,16 +44,16 @@ function setup() {
         let info = homebar.info;
         let text = info.target.innerHTML.trim().toLowerCase();
         if (text) {
-            if (text.substr(2) === "LO") {
+            if (text.substr(0,2) === "lo") {
                 location.href = "lol.html";
                 return;
             }
-            if (text.substr(2) === "CS") {
+            if (text.substr(0,2) === "cs") {
                 location.href = "csgo.html";
                 return;
             }
 
-            location.href = text + ".html";
+            //location.href = text + ".html";
         }
     }
 }

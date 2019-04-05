@@ -2,9 +2,6 @@ head {
     font-family: Arial;
 }
 
-
-
-
 body {
     font-family: Arial;
 }
@@ -13,9 +10,17 @@ footer {
     font-family: Arial;
 }
 
+#maintext {
+    position: absolute;
+    top: 500px;
+}
+
+#copyright {
+    position: relative;
+    top: 200px;
+}
 
 #csgo {
     background-image:12; 
 }
-
 

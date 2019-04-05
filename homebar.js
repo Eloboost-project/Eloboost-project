@@ -33,12 +33,12 @@ class HomeBar extends HTMLElement {
   
               div#menu > ul,
               div#info > ul {
-                text-align: left;
+                text-align: center;
                 visibility: hidden;
                 list-style: none;
                 margin: 0;
                 padding: 5px;
-                z-index:100;
+                z-index:;
                 position: relative;
                 top:-0px;
                 color: black;
