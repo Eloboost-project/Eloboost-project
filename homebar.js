@@ -22,6 +22,7 @@ class HomeBar extends HTMLElement {
         </div>
             <style>
               #home {
+                font-family: helvetica;
                   display: grid;
                   align-items: center;
                   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -57,6 +58,7 @@ class HomeBar extends HTMLElement {
               div#info > ul > li:hover {
                 background: rgb(32,166,231);
               }
+              
   
               div#info li, div#menu li {
                 padding: 2px;
@@ -91,6 +93,7 @@ class HomeBar extends HTMLElement {
                 text-decoration: none;
                 color:white;
                 font-size:29px;
+                
               }
 
             </style>
