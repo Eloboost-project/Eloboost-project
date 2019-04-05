@@ -1,8 +1,9 @@
 
 
 .LOLBOOST {
+    margin: 0 auto;
     left: 10em;
-    position: fixed;
+    position: static;
     padding-top: 2em;
     padding-left: 3em;
     font-family: helvetica;
