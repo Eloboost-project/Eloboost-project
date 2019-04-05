@@ -11,7 +11,7 @@ function setup() {
         <ul>
           <li>LOL
           <li>CSGO
-          <li>MainPage
+        
         </ul>
         `)
         homebar.addEventListener("menu", menuHandler);
@@ -52,10 +52,7 @@ function setup() {
                 location.href = "csgo.html";
                 return;
             }
-            if (text.substr(2) === "MP") {
-                location.href = "mainpage.html";
-                return;
-            }
+
             location.href = text + ".html";
         }
     }
