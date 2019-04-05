@@ -7,7 +7,7 @@ function setup() {
     let refreshList = Array.from(document.querySelectorAll(".db-refresh"));
     if (homebar) {
         homebar.setAttribute("menu",
-            `<i class="material-icons">Home</i>
+            `<i class="material-icons">Game</i>
         <ul>
           <li>LOL
           <li>CSGO
