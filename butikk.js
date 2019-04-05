@@ -14,6 +14,7 @@ function setup() {
         </ul>
         `)
         homebar.addEventListener("menu", menuHandler);
+        homebar.setAttribute("heading", '<a id="hometext" href="mainpage.html">Home</a>')
     }
     if (select) {
         select.addEventListener("korg", bestilling);
