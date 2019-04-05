@@ -2,7 +2,7 @@
 
 .LOLBOOST {
     left: 10em;
-    position: fixed;
+    position: absolute;
     padding-top: 2em;
     padding-left: 3em;
     font-family: helvetica;
