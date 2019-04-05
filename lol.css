@@ -1,19 +1,19 @@
 
 
 .LOLBOOST {
-    left: 380px;
+    left: 10em;
     position: fixed;
-    padding-top: 100px;
-    padding-left: 150px;
+    padding-top: 2em;
+    padding-left: 3em;
     font-family: helvetica;
     font-size: 240%;
-    top: 100px;
+    top: 3em;
     display: grid;
     grid-template-areas: 'left right';
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 400px;
-    grid-gap: 200px;    
-    width: 900px;
+    grid-template-rows: 8em;
+    grid-gap: 4em;    
+    width: 25em;
     background-image: linear-gradient(to bottom right, skyblue, azure);
     border-radius: 25px;
     border: solid skyblue;
