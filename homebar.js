@@ -88,10 +88,11 @@ class HomeBar extends HTMLElement {
 
               }
               a:visited {
+                text-decoration: none;
                 color:white;
                 font-size:29px;
               }
-              
+
             </style>
           `;
          
