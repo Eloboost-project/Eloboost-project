@@ -1,13 +1,14 @@
 
 
 .LOLBOOST {
-    left: 10em;
-    position: absolute;
+    margin: 0 auto;
+    left: 1em;
+    position: relative;
     padding-top: 2em;
     padding-left: 3em;
     font-family: helvetica;
     font-size: 240%;
-    top: 3em;
+    top: 6em;
     display: flex;
     flex-wrap: wrap;
     grid-template-areas: 'left right';
