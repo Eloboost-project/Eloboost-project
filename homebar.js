@@ -91,6 +91,7 @@ class HomeBar extends HTMLElement {
                 color:white;
                 font-size:29px;
               }
+              
             </style>
           `;
          
